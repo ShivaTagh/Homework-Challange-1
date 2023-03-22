@@ -47,7 +47,7 @@ Structure and descriptive comments were added
 
 <!-- Main content -->
 
-<!-- Additional indirect content -->
+<!-- Additional content -->
 
 <!-- Page footer -->
 
