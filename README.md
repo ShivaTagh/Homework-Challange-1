@@ -1,16 +1,10 @@
 # 01 HTML, CSS, and Git: Code Refactor
 
 ## The Challenges
-
-```
 To refactor an existing webpage in order to make it accessible, so it is optimized for search engines.
 ![](./assets/images/project_screen_Shot.jpeg)
 
-```
-
 ## Acceptance Criteria
-
-```
 GIVEN a webpage meets accessibility standards
 WHEN I view the source code
 THEN I find semantic HTML elements
@@ -22,11 +16,15 @@ WHEN I view the heading attributes
 THEN they fall in sequential order
 WHEN I view the title element
 THEN I find a concise, descriptive title
-```
 
+Additional requirements for long term sustainability:
+- Ensure all links are functioning correctly
+- Clean up the CSS selectors and properties to make it efficient
+  - Consolidate CSS selectors and properties
+  - Organize CSS selectors and properties to follow the semantic structure of the HTML elements
+  - Include comments before each element or section of the page
 
 ## The Process
-```
 In orther to accomplish the challege, the following steps were done:
 - Understand clearly the webpage purpose and content
 - Research sources to understand key concepts
@@ -78,7 +76,6 @@ Removed the online-reputation-management class and rules in CSS updated to id
 Removed the social-media-marketing class and rules in CSS updated to id
 
 ```
-
 \
 The specific findings and modifications to the CSS file
 ```
