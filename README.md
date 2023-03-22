@@ -162,7 +162,7 @@ The project was uploaded to [GitHub](https://github.com/) at the following repos
 [https://github.com/ShivaTagh/Homework-Challange-1.git](https://github.com/ShivaTagh/Homework-Challange-1.git)
 
 You can access the deployed application with the GitHup Pages link:
-[https://github.com/ShivaTagh/Homework-Challange-1]
+[https://shivatagh.github.io/Homework-Challange-1/]
 
 ## References
 [Code refactoring](https://en.wikipedia.org/wiki/Code_refactoring)
