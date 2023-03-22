@@ -161,7 +161,7 @@ With the research, application of concepts, and specific changes made to the fil
 The project was uploaded to [GitHub](https://github.com/) at the following repository:
 [https://github.com/ShivaTagh/Homework-Challange-1.git](https://github.com/ShivaTagh/Homework-Challange-1.git)
 
-You can access the deployed application with the GitHup Pages link:
+You can access the deployed application with the GitHub Pages link:
 [https://shivatagh.github.io/Homework-Challange-1/]
 
 ## References
