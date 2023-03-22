@@ -1,55 +1,11 @@
 # 01 HTML, CSS, and Git: Code Refactor
 
-## Challenges in This Course
-
-There are two types of Challenges in this course. Each one is designed to prepare you for a scenario that you're likely to encounter as a web developer.
-
-### Challenge Types 
-
-The two types of Challenges are the following:
-
-* **On-the-job ticket** or **feature request Challenges** give you starter code in a folder called `Develop`, which you'll modify to complete the Challenge. Odd-numbered modules follow this format.
-
-* **Job-seeking coding assessments** or **take-home assignments** don't provide starter code. You'll build these from scratch. Even-numbered modules follow this format.
-
-### Challenge Elements
-
-Challenges adhere to a format that's commonly used by software development teams that use **agile project management** to manage their work. Practicing this will prepare you for the workflows you'll experience as a professional full-stack web developer. 
-
-> **Deep Dive**: To learn more about agile, read this [Wikipedia article on agile software development](https://en.wikipedia.org/wiki/Agile_software_development).
-
-Each Challenge contains the following elements:
-
-* **User Story**: This is a short, simple description of a feature told from the perspective of the person who is requesting the new capability, usually a user or customer of the system. This follows an AS AN / I WANT / SO THAT format. For example, "AS A shopper visiting an online store, I WANT to place items in a shopping cart, SO THAT I can purchase them." 
-
-* **Acceptance Criteria**: These are the requirements that you must meet to satisfy the scope of work. They are not exhaustive, but they do entail the minimum aspects of a working solution. Consider this a checklist of baseline requirements. Acceptance criteria can be presented in various ways. In this case, we'll use a common format called **scenario-oriented criteria** which expresses each requirement in a WHEN / THEN format. Don't worry if this doesn't make sense now; it will become very familiar to you after you complete a couple of Challenges. 
-
-* **Mock-up**: This is an image or animation that demonstrates the design and functionality of the web application that you'll build for the Challenge.
-
-* **Submission**: You'll submit your completed Challenge for review. In the real world, when a developer finishes working on a project, another developer reviews the code, providing feedback on errors and making sure that all of the acceptance criteria have been met. For each Challenge, your instructional staff will serve as your team of reviewers.
-
-## Your Task
-
-This week is an odd-numbered week, so your Challenge is an on-the-job ticket&mdash;meaning that you'll begin with starter code that you need to modify. 
-
-**Refactoring** existing code (improving it without changing what it does) to meet a certain set of standards or to implement a new technology is a common task for front-end and junior developers. For this particular Challenge, a marketing agency has hired you to refactor an existing site to make it more accessible. 
-
-> **Important**: When working with someone else's code, you should adhere to the **Scout Rule**&mdash;always leave the code a little cleaner than when you found it.
-
-An increasingly important consideration for businesses, web **accessibility** ensures that people with disabilities can access a website using assistive technologies like video captions, screen readers, and braille keyboards. Accessibility is good for business&mdash;for one thing, accessible sites rank higher in search engines like Google. It also helps companies avoid litigation, which might arise if people with disabilities can't access a website.
-
-Accessibility can include complex requirements, but your tech lead has given you a small list of specific criteria for this project. These criteria are documented in the Acceptance Criteria section.
-
-To impress clients, you should always exceed expectations and improve the codebase for long-term sustainability. For example, check that all links are functioning correctly. You can also increase the efficiency of the CSS by consolidating the selectors and properties, organizing them to follow the semantic structure of the HTML elements, and including comments before each element or section of the page.
-
-Are you ready to begin? Here are this week's Challenge requirements.
-
-## User Story
+## The Challenges
 
 ```
-AS A marketing agency
-I WANT a codebase that follows accessibility standards
-SO THAT our own site is optimized for search engines
+To refactor an existing webpage in order to make it accessible, so it is optimized for search engines.
+![](./assets/images/project_screen_Shot.jpeg)
+
 ```
 
 ## Acceptance Criteria
@@ -68,91 +24,160 @@ WHEN I view the title element
 THEN I find a concise, descriptive title
 ```
 
-## Mock-Up
 
-The following image shows the web application's appearance and functionality:
+## The Process
+```
+In orther to accomplish the challege, the following steps were done:
+- Understand clearly the webpage purpose and content
+- Research sources to understand key concepts
+  - What code refactoring is
+  - Semantic HTML
+  - Web accesibility standards
+  - How to edit Markdown files
+  - Proper use of a README.mb file
+- Apply above concepts in the revision and editing of the HTML and CSS files
+  
+\
+The specific findings and modifications to the HTML file
+```
+Structure and descriptive comments were added
 
-![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](./Assets/01-html-css-git-homework-demo.png)
+<!-- Header -->
 
-> **Note**: This layout is designed for desktop viewing, so you may notice that some of the elements don't look like the mock-up at a resolution smaller than 768px. Eventually you'll learn how to make elements responsive so that your web application is optimized for any screen size.
+<!-- Main content -->
 
-## Getting Started
+<!-- Additional indirect content -->
 
-Follow these instructions to create your project and deploy it to GitHub Pages:
+<!-- Page footer -->
 
-1. Create a new repository on your GitHub account and clone it to your computer.
 
-2. When you're ready to deploy, use the `git add`, `git commit`, and `git push` commands to save and push your code to your GitHub repository.
+Changed <div>  for <header> tag
 
-3. Navigate to your GitHub repository in the browser and then select the Settings tab on the right side of the page.
+Changed <div>  for <nav> tag in HTML, and .header nav CSS rules
 
-4. On the Settings page, scroll down to the GitHub Pages section. Then, in the section labeled Source, select the `main` branch as your source.
+Changed to hero, and included into the header section.
 
-5. Navigate to <your-github-username.github.io/your-repository-name> and you will find that your new webpage has gone live! For example, if your GitHub username is "lernantino" and the project is "css-demo-site", then your URL would be <lernantino.github.io/css-demo-site>.
+Added some empty lines for making the HTML sections easier to identify
 
-You can also refer to this [YouTube video on enabling GitHub Pages](https://youtu.be/P4Mu1t5rIXg) for more guidance.
 
-> **Important**: It might take a few minutes for GitHub pages to display your site correctly. If your project does not deploy or display correctly, check that all file paths in your application are relative and use the right casing. GitHub is case-sensitive, an inccorect capital or lowercase letter could cause problems in deployment.
+Added <main> tag to group the content
 
-Be sure to add, commit, and push your work to see the most up-to-date version of your app!
+Added <footer> tag at the bottom of the page
 
-## Grading Requirements
+The benefits <div> tag was changed to <aside> tag
 
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
 
-This Challenge is graded based on the following criteria: 
+Included alt properties with related description for each image
 
-### Technical Acceptance Criteria: 40%
+Changed the class search-engine-optimization to id search-engine-optimization
 
-* Satisfies all of the preceding acceptance criteria plus the following code improvements:
+Changed the classes  benefit-lead, benefit-brand and benefit-cost to id benefit-lead, benefit-brand and benefit-cost
 
-  * Application's links all function correctly.
+Removed the online-reputation-management class and rules in CSS updated to id
 
-  * Application's CSS selectors and properties are consolidated and organized to follow semantic structure.
+Removed the social-media-marketing class and rules in CSS updated to id
 
-  * Application's CSS file is properly commented.
+```
 
-### Deployment: 32%
+\
+The specific findings and modifications to the CSS file
+```
+Structure and descriptive comments were added to the CSS file, and the css rules were clasified accordingly:
 
-* Application deployed at live URL.
+/* ================================= 
+ Global rules and element rules
+==================================== */
 
-* Application loads with no errors.
 
-* Application GitHub URL submitted.
+/* ================================= 
+ Structural content style
+==================================== */
 
-* GitHub repository contains application code.
+/* ---------- The Header ---------- */
 
-### Application Quality: 15%
+/* ---------- content ---------- */
 
-* Application resembles mock-up provided in the Challenge instructions (at least 90%).
+/* ------- Additional content ------- */
 
-### Repository Quality: 13%
+/* --------- The Page Footer --------- */
 
-* Repository has a unique name.
 
-* Repository follows best practices for file structure and naming conventions.
+The rules were ordered in terms of specificity to provide clearance in cascading rules application. Element rules first, then class selector rules and finally id selector rules.
 
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
+Rules that were simplified into one rule (Replaced all class rules to id)
 
-* Repository contains multiple descriptive commit messages.
+#search-engine-optimization,
+#online-reputation-management,
+#social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
 
-* Repository contains quality README file with description, screenshot, and link to deployed application.
+#search-engine-optimization img,
+#online-reputation-management img,
+#social-media-marketing img {
+    max-height: 200px;
+}
 
-## Review
+#search-engine-optimization h2,
+#online-reputation-management h2,
+#social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
 
-You are required to submit the following for review:
+#benefit-lead,
+#benefit-brand,
+#benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
 
-* The URL of the deployed application.
+#benefit-lead h3,
+#benefit-brand h3,
+#benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
 
-* The URL of the GitHub repository, with a unique name and a README that describes the project.
+#benefit-lead img,
+#benefit-brand img,
+#benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+```
 
----
-© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+
+## The Output
+With the research, application of concepts, and specific changes made to the files, we were able to ensure an accesible, efficient, and easy to read project.  
+
+## Installation
+The project was uploaded to [GitHub](https://github.com/) at the following repository:
+[https://github.com/ShivaTagh/Homework-Challange-1.git](https://github.com/ShivaTagh/Homework-Challange-1.git)
+
+You can access the deployed application with the GitHup Pages link:
+[https://github.com/ShivaTagh/Homework-Challange-1]
+
+## References
+[Code refactoring](https://en.wikipedia.org/wiki/Code_refactoring)
+
+[Semantic HTML](https://teamtreehouse.com/library/semantic-html-header-footer-and-section)
+
+[Web accessibility standards](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML)
+
+[Markdown and Visual Studio Code](https://code.visualstudio.com/docs/languages/markdown)
+
+[Make a README](https://www.makeareadme.com/#template)
+
+
+
+
+## Aknowledgements
+ This homework project considered recommendations and guide from our training team.
+
