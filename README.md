@@ -1,8 +1,10 @@
 # 01 HTML, CSS, and Git: Code Refactor
+BootCamp Homework - 01 HTML CSS Git: Code Refactor
 
 ## The Challenges
 
 To refactor an existing webpage in order to make it accessible, so it is optimized for search engines.
+
 ![](https://github.com/ShivaTagh/Homework-Challange-1/blob/main/Unsolved/assets/images/project_screen_Shot.jpeg)
 
 ## Acceptance Criteria
