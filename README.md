@@ -3,7 +3,7 @@
 ## The Challenges
 
 To refactor an existing webpage in order to make it accessible, so it is optimized for search engines.
-![](./assets/images/project_screen_Shot.jpeg)
+![](https://github.com/ShivaTagh/Homework-Challange-1/blob/main/Unsolved/assets/images/project_screen_Shot.jpeg)
 
 ## Acceptance Criteria
 GIVEN a webpage meets accessibility standards
