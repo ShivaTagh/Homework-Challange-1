@@ -1,6 +1,7 @@
 # 01 HTML, CSS, and Git: Code Refactor
 
 ## The Challenges
+
 To refactor an existing webpage in order to make it accessible, so it is optimized for search engines.
 ![](./assets/images/project_screen_Shot.jpeg)
 
