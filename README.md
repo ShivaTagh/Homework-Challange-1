@@ -139,14 +139,14 @@ Rules that were simplified into one rule (Replaced all class rules to id)
     margin: 10px auto;
     max-width: 150px;
 }
-```
+
 Heading elements are shown in sequential order now.
 
 Updated the header element.
 .footer h4 {
     font-size: 20px;
 }
-
+```
 
 ## The Output
 With the research, application of concepts, and specific changes made to the files, we were able to ensure an accesible, efficient, and easy to read project.  
