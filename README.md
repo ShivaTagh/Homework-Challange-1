@@ -106,52 +106,46 @@ The rules were ordered in terms of specificity to provide clearance in cascading
 
 Rules that were simplified into one rule (Replaced all class rules to id)
 
-#search-engine-optimization,
-#online-reputation-management,
-#social-media-marketing {
+#search-engine-optimization, #online-reputation-management, #social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
-}
+}    
 
-#search-engine-optimization img,
-#online-reputation-management img,
-#social-media-marketing img {
+#search-engine-optimization img, #online-reputation-management img, #social-media-marketing img {
     max-height: 200px;
 }
 
-#search-engine-optimization h2,
-#online-reputation-management h2,
-#social-media-marketing h2 {
+#search-engine-optimization h2, #online-reputation-management h2, #social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-#benefit-lead,
-#benefit-brand,
-#benefit-cost {
+#benefit-lead, #benefit-brand, #benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-#benefit-lead h3,
-#benefit-brand h3,
-#benefit-cost h3 {
+#benefit-lead h3, #benefit-brand h3, #benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-#benefit-lead img,
-#benefit-brand img,
-#benefit-cost img {
+#benefit-lead img, #benefit-brand img, #benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 ```
+Heading elements are shown in sequential order now.
+
+Updated the header element.
+.footer h4 {
+    font-size: 20px;
+}
 
 
 ## The Output
