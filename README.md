@@ -5,7 +5,7 @@ BootCamp Homework - 01 HTML CSS Git: Code Refactor
 
 To refactor an existing webpage in order to make it accessible, so it is optimized for search engines.
 
-![](https://github.com/ShivaTagh/Homework-Challange-1/blob/main/Unsolved/assets/images/project_screen_Shot.jpeg)
+![](https://github.com/ShivaTagh/Homework-Challange-1/blob/main/assets/images/project_screen_Shot.jpeg)
 
 ## Acceptance Criteria
 GIVEN a webpage meets accessibility standards
@@ -47,7 +47,7 @@ Structure and descriptive comments were added
 
 <!-- Main content -->
 
-<!-- Additional indirect content -->
+<!-- Additional content -->
 
 <!-- Page footer -->
 
@@ -161,8 +161,8 @@ With the research, application of concepts, and specific changes made to the fil
 The project was uploaded to [GitHub](https://github.com/) at the following repository:
 [https://github.com/ShivaTagh/Homework-Challange-1.git](https://github.com/ShivaTagh/Homework-Challange-1.git)
 
-You can access the deployed application with the GitHup Pages link:
-[https://github.com/ShivaTagh/Homework-Challange-1]
+You can access the deployed application with the GitHub Pages link:
+[https://shivatagh.github.io/Homework-Challange-1/]
 
 ## References
 [Code refactoring](https://en.wikipedia.org/wiki/Code_refactoring)
